@@ -1,16 +1,12 @@
-# exam
+# 이번엔 프로젝트 하나로 WEB - APP UI 나눠서 빌드
 
-A new Flutter application.
+### 주의
+ - 분기 1 웹과 앱
+ - 분기 2 앱은 안드로이드와 아이폰
+ - 웹은 사이즈에 다라 앱의 화면으로 사용 할 수도 있도록
+ - 웹과 안드로이드는 Material / 아이폰은 Cupertino
+ - 공통 내용은 foundation 또는 widget 내장 패키지를 사용
+ - (보완) 서버와 함께 사용하여 웹의 경우도 Material 과 Cueprtino 로 분기 가능
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ 페이지 및 UI 위젯구성(컴포넌드)에 종속에 따라 분리하여 폴더 구조가 낯설 수 있지만 아마 UI는 이렇게 나눠야 개발이 편합니다,
+ 웹과 안드로이드의 경우 같은 디자인을 사용하므로 공통 부분은 따로 묶으면 더 편하지만 서비스 개발에 웹과 앱의 구성 자체가 예시와는 다르므로 굳이 나누지 않을 것 같습니다.
